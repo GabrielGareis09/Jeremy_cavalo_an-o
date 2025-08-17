@@ -1,0 +1,188 @@
+body{
+    margin: 0%;
+    background-color: #0b0b0e;
+    font-family: "Quicksand", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: black;
+}
+
+.logo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.logo img{
+    width: 80px;
+    border-radius: 50px;
+}
+
+.links{
+    padding-top: 3%;
+}
+
+.links a{
+    padding-right: 30px;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    transition: color 0.2s ease;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: #d18400;
+    cursor: pointer;
+}
+
+.quicksand{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.area_topo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.topo{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.topo span{
+    color: gray;
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    border: 1px solid gray; 
+    border-radius: 20px;
+    padding: 7px 400px 7px 400px;
+}
+
+.topo h1{
+    color: #d18400;
+    font-size: 60px;
+    font-weight: 700;
+    text-shadow: 0 0 20px black;
+}
+
+.topo p{
+    color: white;
+    font-size: 27px;
+    font-weight: 100;
+}
+
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.botoes button{
+    background: linear-gradient(90deg,rgba(255, 217, 0, 1) 26%, #d18400 74%);
+    color: black;
+    border: none;
+    border-radius: 20px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    width: 250px;
+    height: 70px;
+    box-shadow: 0 0 30px #d18400;
+    transition: transform 0.1s;
+    cursor: pointer;
+}
+
+.botoes button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 50px #FFC717;
+}
+
+.area_cards{
+    background-color: #111114;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3%;
+    gap: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.card{
+    background-color: #0b0b0e;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px black;
+    transition: transform 0.1s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 50px black;
+}
+
+.card img{
+    width: 450px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.tit1{
+    color: #44e224;
+    margin-left: 5%;
+}
+
+.tit2{
+    color: #3cbef1;
+    margin-left: 5%;
+}
+
+.tit3{
+    color: #8240da;
+    margin-left: 5%;
+}
+
+.tit4{
+    color: #d18400;
+    margin-left: 5%;
+}
+
+.card b{
+    font-weight: 100;
+    color: gray;
+}
+
+.card p{
+    color: white;
+    font-weight: 100;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 18px;
+}
+
+.card span{
+    color: gray;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+footer {
+    font-family: "Quicksand", sans-serif;
+    background-color: #0b0b0e;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}

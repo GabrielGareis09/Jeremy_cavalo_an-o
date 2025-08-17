@@ -1,0 +1,147 @@
+body{
+    margin: 0%;
+    background-color: #0b0b0e;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: black;
+}
+
+.logo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.logo img{
+    width: 80px;
+    border-radius: 50px;
+}
+
+.links{
+    padding-top: 3%;
+}
+
+.links a{
+    padding-right: 30px;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    transition: color 0.2s ease;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: #d18400;
+    cursor: pointer;
+}
+
+.quicksand{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.bem_vindo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.bem_vindo img{
+    width: 150px;
+    border-radius: 100px;
+    border: white 2px solid;
+    box-shadow: 0 0 10px white;
+}
+
+.bem_vindo h1{
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    margin-top: 1%;
+}
+
+.area_selecionar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111114;
+    padding-bottom: 1.5%;
+    margin-top: 1%;
+}
+
+.tit_selecionar h1{
+    color: #d18400;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 100;
+}
+
+.selecionar{
+    display: flex;
+    background-color: #0b0b0e;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0 0 30px black;
+}
+
+.selecionar h1{
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    width: 600px;
+    text-align: center;
+}
+
+.selecionar a{
+    color: #d18400;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.area_fotos{
+    background-color: #111114;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+.coluna_esquerda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg,rgba(255, 217, 0, 1) 26%, #d18400 74%);
+}
+
+.coluna_esquerda h1{
+    color: black;
+    font-family: "Quicksand", sans-serif;
+}
+
+.coluna_esquerda img{
+    width: 500px;
+}
+
+.coluna_direita{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.coluna_direita img{
+    width: 280px;
+}
+
+footer {
+    font-family: "Quicksand", sans-serif;
+    background-color: #0b0b0e;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
